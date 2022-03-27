@@ -21,7 +21,7 @@ const RealState = () => {
       <div className="container">
         <nav className="navbar">
           {/* LOGO */}
-          <Link to="/" className="navbar-logo">
+          <Link to="/realestate" className="navbar-logo">
             <img src={logo} alt="logo" className="logo" />
           </Link>
 
@@ -79,7 +79,7 @@ const RealState = () => {
       </div>
 
       {/*Homee LOGO */}
-      <Link to="/" className="homee_logo">
+      <Link to="/realestate" className="homee_logo">
         <img src={homeelogo} alt="homeelogo" className="homeelogo" />
       </Link>
 
@@ -105,7 +105,7 @@ const RealState = () => {
       {/* THIRD SECTION */}
       <section className="third_section">
         <div className="third_section_link">
-          <Link to="/" className="third_section_link__item">
+          <Link to="/realestate" className="third_section_link__item">
             Listing
           </Link>
 
@@ -113,17 +113,20 @@ const RealState = () => {
             About
           </Link>
 
-          <Link to="/" className="third_section_link__item sign">
+          <Link to="/realestate" className="third_section_link__item sign">
             Contact
           </Link>
         </div>
 
         {/* ////// */}
         <div className="third_section_imgsection">
-          <Link to="/" className="third_section_imgsection_firstlink">
+          <Link to="/realestate" className="third_section_imgsection_firstlink">
             <img src={house1} alt="house2" className="" />
           </Link>
-          <Link to="/" className="third_section_imgsection_secondlink">
+          <Link
+            to="/realestate"
+            className="third_section_imgsection_secondlink"
+          >
             <img src={house3} alt="house3" className="" />
           </Link>
         </div>
@@ -153,7 +156,7 @@ const RealState = () => {
       </section>
 
       {/*Homee LOGO */}
-      <Link to="/" className="homee_logo">
+      <Link to="/realestate" className="homee_logo">
         <img src={homeelogo} alt="homeelogo" className="homeelogo" />
       </Link>
 
@@ -183,26 +186,26 @@ const RealState = () => {
       <section className="footer_section">
         <div className="footer_section_div1 footer_section_common">
           <p>Housing.com</p>
-          <a href="/">Mobile App</a>
-          <a href="/">Our Service</a>
-          <a href="/">Builder in India</a>
-          <a href="/">Realtor</a>
+          <a href="/realestate">Mobile App</a>
+          <a href="/realestate">Our Service</a>
+          <a href="/realestate">Builder in India</a>
+          <a href="/realestate">Realtor</a>
         </div>
         <div className="footer_section_div2 footer_section_common">
           <p>Company</p>
           <a href="/about">About us</a>
-          <a href="/">Contact us</a>
-          <a href="/">Careers with us</a>
-          <a href="/">Term & Condition</a>
-          <a href="/">Privacy Policy</a>
+          <a href="/realestate">Contact us</a>
+          <a href="/realestate">Careers with us</a>
+          <a href="/realestate">Term & Condition</a>
+          <a href="/realestate">Privacy Policy</a>
         </div>
         <div className="footer_section_div3 footer_section_common">
           <p>Our Partners</p>
-          <a href="/">XyZ.com</a>
-          <a href="/">Hoomee.com</a>
-          <a href="/">study.com</a>
-          <a href="/">Tata.com</a>
-          <a href="/">ambition.com</a>
+          <a href="/realestate">XyZ.com</a>
+          <a href="/realestate">Hoomee.com</a>
+          <a href="/realestate">study.com</a>
+          <a href="/realestate">Tata.com</a>
+          <a href="/realestate">ambition.com</a>
         </div>
         <div className="footer_section_div4 footer_section_common">
           <p>Contact Us</p>

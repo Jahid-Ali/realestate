@@ -11,7 +11,7 @@ const Signup = () => {
     <>
       <div className="login_container">
         <section className="login_right signup_right">
-          <Link to="/" className="login-logo">
+          <Link to="/realestate" className="login-logo">
             <img src={logo} alt="logo" className="login-logo" />
           </Link>
 

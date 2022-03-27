@@ -15,7 +15,7 @@ const Login = () => {
         </section>
 
         <section className="login_right">
-          <Link to="/" className="login-logo">
+          <Link to="/realestate" className="login-logo">
             <img src={logo} alt="logo" className="login-logo" />
           </Link>
 
