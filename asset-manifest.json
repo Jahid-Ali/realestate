@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/realestate/static/css/main.89280f15.css",
+    "main.js": "/realestate/static/js/main.088cf590.js",
+    "static/media/house.png": "/realestate/static/media/house.842a759eda275ac82d16.png",
+    "static/media/wp3675031.jpg": "/realestate/static/media/wp3675031.0a605a804f9b504f0df2.jpg",
+    "static/media/login.png": "/realestate/static/media/login.d424e14e0ad49e240849.png",
+    "static/media/signup.png": "/realestate/static/media/signup.b6f1997fcb9bb47ca121.png",
+    "static/media/phone.png": "/realestate/static/media/phone.d254058bdceb8c3ef85f.png",
+    "static/media/house1.webp": "/realestate/static/media/house1.043e70361b89074069ee.webp",
+    "static/media/house2.jpg": "/realestate/static/media/house2.d82c8483b96690a36038.jpg",
+    "static/media/house3.webp": "/realestate/static/media/house3.ae23e8378aea6f2db18b.webp",
+    "static/media/homeelogo.svg": "/realestate/static/media/homeelogo.76ca8b79fe8b421a97e26a8002030897.svg",
+    "index.html": "/realestate/index.html",
+    "static/media/small-eclipse.svg": "/realestate/static/media/small-eclipse.c0a4ea8cf89c718ad6d640fa33e76f55.svg",
+    "static/media/mid-eclipse.svg": "/realestate/static/media/mid-eclipse.cc71c29936702f45e4bd9687a81d0563.svg",
+    "static/media/big-eclipse.svg": "/realestate/static/media/big-eclipse.f7dfec9ffe636250057845866a435ab3.svg",
+    "main.89280f15.css.map": "/realestate/static/css/main.89280f15.css.map",
+    "main.088cf590.js.map": "/realestate/static/js/main.088cf590.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89280f15.css",
+    "static/js/main.088cf590.js"
+  ]
+}
