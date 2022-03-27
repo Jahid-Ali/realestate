@@ -1,4 +1,4 @@
-import react from "react";
+import react, { useState } from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
 
@@ -15,6 +15,8 @@ import mideclipse from "./image/mid-eclipse.svg";
 import smalleclipse from "./image/small-eclipse.svg";
 
 const RealState = () => {
+  const [showBurger, setShowBurger] = useState(false);
+  //
   return (
     <>
       {/* NAVBAR */}
@@ -26,7 +28,9 @@ const RealState = () => {
           </Link>
 
           {/* LINK */}
-          <div className="navbar_link">
+          <div
+            className={showBurger ? "mob_navbar navbar_link" : "navbar_link"}
+          >
             <Link to="/about" className="navbar_link__item">
               About
             </Link>
@@ -38,6 +42,18 @@ const RealState = () => {
             <Link to="/signup" className="navbar_link__item sign nav_btn_sign">
               sign up
             </Link>
+          </div>
+
+          {/* BURGER BUTTON */}
+          <div
+            className="burger"
+            onClick={() => {
+              setShowBurger(!showBurger);
+            }}
+          >
+            <div className="burger1"></div>
+            <div className="burger2"></div>
+            <div className="burger3"></div>
           </div>
         </nav>
       </div>
