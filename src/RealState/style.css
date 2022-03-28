@@ -816,18 +816,17 @@
 
   .mob_navbar {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
 
     position: absolute;
     top: 100%;
-    right: 0%;
-    width: 60%;
+    width: 100%;
     align-items: center;
     background-color: #cef7e4;
-    background-image: linear-gradient(315deg, #d6ffed 0%, #3eadcf 74%);
+    background-image: linear-gradient(315deg, #84f1c2 0%, #a2e7fc 74%);
 
     text-transform: capitalize;
     border-radius: 20px;
@@ -837,17 +836,17 @@
   @keyframes nav-item1 {
     from {
       opacity: 0;
-      transform: translateY(-100px);
+      transform: translateX(100px);
     }
     to {
       opacity: 1;
-      transform: translateY(0px);
+      transform: translateX(0px);
     }
   }
 
   .mob_navbar a {
     color: #0a3524;
-    margin: 50px;
+    margin: 10px;
     border-radius: 5px;
     font-size: 17px;
     padding: 15px;
@@ -936,5 +935,13 @@
     cursor: pointer;
     font-weight: 600;
     font-size: medium;
+  }
+
+  .footer_section_div4 {
+    margin-left: 10px;
+  }
+
+  .footer_section_common p{
+    font-size: 15px ;
   }
 }
